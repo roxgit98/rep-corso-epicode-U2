@@ -155,7 +155,7 @@ console.log(me)
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-delete me.skills[2]
+  delete me.skills[2]
 console.log(me)
 
 /* ESERCIZIO 14
@@ -167,6 +167,6 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
+array.pop()
 array.push(100)
 console.log(array)
